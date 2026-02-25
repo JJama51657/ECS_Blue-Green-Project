@@ -18,16 +18,16 @@
 GitHub Actions CI/CD
         |
         v
-  Build & Push Docker Image -> Amazon ECR
+  Build, Test & Push Docker Image -> Amazon ECR
+        |                          
+        v                          
+   ECS Updates Task Definition to New Image
         |
         v
-   ECS Task Definition Update
+   AppSpec File Tells CodeDeploy To Use New Task Def
         |
         v
-   CodeDeploy Blue/Green Deployment
-        |
-        v
-Application Load Balancer routes traffic to healthy environment
+Application Load Balancer routes traffic to new healthy Deployments
         |
         v
 CloudWatch Alarms monitor health and trigger rollbacks
