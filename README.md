@@ -50,6 +50,7 @@ CloudWatch Alarms monitor health and trigger rollbacks
 <ol>
   <li>Checkout repository</li>
   <li>Authenticate to AWS using OIDC GitHub Actions role</li>
+  <li>Run tests and perform Trivy and SonarQube quality/security checks</li>
   <li>Build multi-stage Docker image and tag with commit SHA</li>
   <li>Push image to Amazon ECR</li>
   <li>Pull current ECS task definition and update image</li>
