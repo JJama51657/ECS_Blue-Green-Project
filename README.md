@@ -18,7 +18,7 @@
 GitHub Actions CI/CD
         |
         v
-  Build, Test & Push Docker Image -> Amazon ECR
+  Build,Test & Push Docker Image -> Amazon ECR
         |                          
         v                          
    ECS Updates Task Definition to New Image
