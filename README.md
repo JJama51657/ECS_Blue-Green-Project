@@ -6,7 +6,8 @@
 <h2>Features</h2>
 <ul>
   <li><strong>Blue/Green Deployment:</strong> ECS + CodeDeploy traffic shifting with ALB health checks.</li>
-  <li><strong>CI/CD Automation:</strong> GitHub Actions builds Docker images, pushes to ECR, updates ECS task definitions, and triggers deployments.</li>
+  <li><strong>Continuous Integration (CI):</strong> GitHub Actions builds Docker images, runs Maven tests, performs Trivy security scans, and executes SonarQube static code analysis with Quality Gate enforcement.</li>
+  <li><strong>Continuous Deployment (CD):</strong> GitHub Actions pushes Docker images to ECR, updates ECS task definitions, and triggers CodeDeploy Blue/Green deployments.</li>
   <li><strong>Automated Rollback:</strong> CloudWatch alarms trigger rollback on failures.</li>
   <li><strong>Failure Injection Testing:</strong> Validate rollback behavior with controlled test deployments.</li>
   <li><strong>Multi-stage Docker Build:</strong> Optimized production images.</li>
