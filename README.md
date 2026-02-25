@@ -15,24 +15,8 @@
 </ul>
 
 <h2>Architecture Overview</h2>
-<pre>
-GitHub Actions CI/CD
-        |
-        v
-  Build,Test & Push Docker Image -> Amazon ECR
-        |                          
-        v                          
-   ECS Updates Task Definition to New Image
-        |
-        v
-   AppSpec File Tells CodeDeploy To Use New Task Def
-        |
-        v
-Application Load Balancer routes traffic to new healthy Deployments
-        |
-        v
-CloudWatch Alarms monitor health and trigger rollbacks
-</pre>
+<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/640fdd84-5944-4a59-a13d-22fa29d6c53b" />
+
 
 <h2>Repository Structure</h2>
 <pre>
