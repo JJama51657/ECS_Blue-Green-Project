@@ -6,7 +6,7 @@
 <h2>Features</h2>
 <ul>
   <li><strong>Blue/Green Deployment:</strong> ECS + CodeDeploy traffic shifting with ALB health checks.</li>
-  <li><strong>Tests + checks: Performs Trivy security scans and SonarQube quality checks (applying left-shift security and fail-fast principles)</strong></li>
+  <li><strong>Tests + Checks: Performs Trivy security scans and SonarQube quality checks (applying left-shift security and fail-fast principles).</strong></li>
   <li><strong>CI/CD Automation: GitHub Actions builds the app, then pushes Docker images to ECR, updates ECS task definitions, and triggers CodeDeploy Blue/Green deployments.</strong></li>
   <li><strong>Automated Rollback:</strong> CloudWatch alarms trigger rollback on failures.</li>
   <li><strong>Failure Injection Testing:</strong> Validate rollback behavior with controlled test deployments.</li>
