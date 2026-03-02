@@ -70,7 +70,7 @@
 
 <h2>Screenshots Of My Work</h2>
 <ul>
-  <li><img width="1260" height="491" alt="Screenshot 2026-02-23 081709" src="https://github.com/user-attachments/assets/de053663-9ad9-4ce0-bcfb-a9eda56c342a" />
+  <li><img width="630" height="245" alt="Screenshot 2026-02-23 081709" src="https://github.com/user-attachments/assets/de053663-9ad9-4ce0-bcfb-a9eda56c342a" />
 </li>
   
 </ul>
