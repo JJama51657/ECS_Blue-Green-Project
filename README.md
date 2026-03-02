@@ -78,7 +78,7 @@
 <li>
   <p>Alarm Threshold Rollback + Faliure Rollback</p><img width="584" height="425" alt="Screenshot 2026-02-09 181209" src="https://github.com/user-attachments/assets/eb1fc54d-6932-48a4-9153-3d08072bb864" />
 </li>
-<li><p>Multi-Stage Dockerfile/p><img width="547" height="151" alt="Screenshot 2026-03-02 185037" src="https://github.com/user-attachments/assets/5f12fb55-596b-44c8-bbae-d08c1966c4d6" />
+<li><p>Multi-Stage Dockerfile</p><img width="547" height="151" alt="Screenshot 2026-03-02 185037" src="https://github.com/user-attachments/assets/5f12fb55-596b-44c8-bbae-d08c1966c4d6" />
 </li>
   
 </ul>
