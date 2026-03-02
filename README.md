@@ -73,8 +73,8 @@
   <li><p>GitHub Actions Worklow</p><img width="630" height="245" alt="Screenshot 2026-02-23 081709" src="https://github.com/user-attachments/assets/de053663-9ad9-4ce0-bcfb-a9eda56c342a" />
 </li>
 <li>
-  <p>CodeDeploy Blue/Green Traffic Shift Process <img width="744" height="311" alt="Screenshot 2026-02-11 195256" src="https://github.com/user-attachments/assets/1ef441e0-701a-47ac-8300-37e976ed6189" />
-</p>
+  <p>CodeDeploy Blue/Green Traffic Shift Process</p> <img width="744" height="311" alt="Screenshot 2026-02-11 195256" src="https://github.com/user-attachments/assets/1ef441e0-701a-47ac-8300-37e976ed6189" />
+
 </li>
   
 </ul>
