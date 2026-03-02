@@ -78,11 +78,6 @@
 <li>
   <p>Alarm Threshold Rollback + Faliure Rollback</p><img width="584" height="425" alt="Screenshot 2026-02-09 181209" src="https://github.com/user-attachments/assets/eb1fc54d-6932-48a4-9153-3d08072bb864" />
 </li>
-<li><p>Controlled Faliure Test Successful</p><img width="600" height="280" alt="Screenshot 2026-02-08 230239" src="https://github.com/user-attachments/assets/1a6839df-cb1e-45f8-8cf7-0b95481520c3" />
-
-
-
-</li>
   
 </ul>
 
