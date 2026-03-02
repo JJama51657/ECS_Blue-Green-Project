@@ -74,6 +74,9 @@
 </li>
 <li>
   <p>CodeDeploy Blue/Green Traffic Shift Process</p> <img width="744" height="311" alt="Screenshot 2026-02-11 195256" src="https://github.com/user-attachments/assets/1ef441e0-701a-47ac-8300-37e976ed6189" />
+</li>
+<li>
+  <p>CloudWatch Monitoring + Faliure Rollback</p><img width="584" height="425" alt="Screenshot 2026-02-09 181209" src="https://github.com/user-attachments/assets/eb1fc54d-6932-48a4-9153-3d08072bb864" />
 
 </li>
   
