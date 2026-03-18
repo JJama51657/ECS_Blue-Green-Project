@@ -116,7 +116,7 @@ and <strong>fully reproducible infrastructure</strong>.
 
 <hr/>
 
-<h2>⚠️ Failure Testing &amp; Lessons Learned</h2>
+<h2>⚠️ Failures &amp; Lessons Learned</h2>
 
 <h3>Issue</h3>
 <p>
