@@ -23,6 +23,7 @@ and <strong>fully reproducible infrastructure</strong>.
 <h2>✨ Key Features</h2>
 <ul>
   <li><strong>Infrastructure as Code:</strong> Full AWS environment provisioned with Terraform (VPC, ECS, ALB, IAM).</li>
+  <li><strong>Modular Terraform: </strong>Structured Terraform using reusable modules improving maintainability and enabling environment reuse.</li>
   <li><strong>Blue/Green Deployment:</strong> Zero-downtime deployments using CodeDeploy traffic shifting.</li>
   <li><strong>CI/CD Automation:</strong> GitHub Actions pipeline from build to deployment.</li>
   <li><strong>Security & Quality:</strong> Trivy vulnerability scanning and SonarQube analysis.</li>
@@ -207,5 +208,3 @@ This project showcases:
   <li>Infrastructure automation with Terraform</li>
   <li>Cloud-native security and reliability practices</li>
 </ul>
-
-<p><strong>Ideal for Platform / Cloud Engineer roles.</strong></p>
