@@ -45,6 +45,62 @@ and <strong>fully reproducible infrastructure</strong>.
   <li>Security groups and networking</li>
 </ul>
 <hr>
+
+
+<h2>🚀 Architecture Evolution</h2>
+
+<h3>v1 – Manual ECS Deployment</h3>
+<ul>
+  <li>Manually created ECS cluster, services, and task definitions</li>
+  <li>Built and pushed Docker images to ECR manually</li>
+  <li>No CI/CD pipeline or deployment automation</li>
+</ul>
+<p><b>Problem:</b> Slow (~20 min deployments), error-prone, and not reproducible</p>
+
+<h3>v2 – Infrastructure as Code (Terraform)</h3>
+<ul>
+  <li>Introduced Terraform to provision ECS, ALB, networking, and IAM</li>
+  <li>Modularized infrastructure for reuse and maintainability</li>
+</ul>
+<p><b>Impact:</b> Reproducible environments and reduced configuration drift</p>
+
+<h3>v3 – CI/CD Automation (GitHub Actions + OIDC)</h3>
+<ul>
+  <li>Implemented GitHub Actions pipeline</li>
+  <li>Used OIDC for secure, keyless AWS authentication</li>
+  <li>Automated build, scan (Trivy + SonarQube), and push to ECR</li>
+</ul>
+<p><b>Impact:</b> Fully automated build pipeline and reduced manual intervention</p>
+
+<h3>v4 – Deployment Automation (ECS + CodeDeploy)</h3>
+<ul>
+  <li>Integrated CodeDeploy with ECS for Blue/Green deployments</li>
+  <li>Implemented traffic shifting via ALB</li>
+  <li>Configured CloudWatch alarms for automated rollback</li>
+</ul>
+<p><b>Impact:</b> Zero-downtime deployments with safer release strategy</p>
+
+<h3>📊 Final Outcome</h3>
+<ul>
+  <li>Deployment time reduced from <b>~20 minutes → ~4 minutes</b></li>
+  <li>Fully automated CI/CD pipeline</li>
+  <li>Safer deployments with rollback and traffic control</li>
+</ul>
+
+<h3>🔍 Key Limitation & Next Step</h3>
+<ul>
+  <li>Observed that rollback strategy only reverted to the <b>previous deployment</b>, not the last known stable version</li>
+  <li>This introduced risk if multiple faulty deployments occurred consecutively</li>
+</ul>
+<p>
+<b>Insight:</b> More advanced deployment control and state management were needed for complex systems
+</p>
+
+<p>
+<b>Next Step:</b> Explored Kubernetes-based solutions to achieve greater flexibility in rollout strategies and deployment control
+</p>
+
+<hr>
 <h2>🏗 Architecture Diagram </h2>
 
 <img width="512" height="7518" src="https://github.com/user-attachments/assets/640fdd84-5944-4a59-a13d-22fa29d6c53b" />
